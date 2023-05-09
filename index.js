@@ -18,7 +18,7 @@ const server = http.createServer(app);
 const PORT = 5001;
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://enchanting-torrone-b257ed.netlify.app',
     methods: ['GET', 'POST']
   }
 })
